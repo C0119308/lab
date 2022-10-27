@@ -1,0 +1,8 @@
+sample/resourceserver/ResourceServer.class
+sample/oauthutil/OauthUtil.class
+sample/oauthutil/IntrospectionResponse.class
+sample/oauthutil/TokenResponse.class
+sample/resourceserver/ResourceServerConfiguration.class
+sample/oauthutil/AccessToken.class
+sample/resourceserver/ResourceServerController.class
+sample/oauthutil/RefreshToken.class

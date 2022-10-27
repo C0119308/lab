@@ -1,0 +1,11 @@
+{
+    "creator_account_id": "admin@test",
+    "query_counter": 3,
+    "created_ts": 1665999233095,
+    "signature": {
+        "pubkey": "313a07e6384776ed95447710d15e59148473ccfc052a681317a72a69f2a49910",
+        "signature": "f38783179c9ac452fdc40f4d0f9c6ac98385944431cff3c745625ecc51d8fc0c1160ae52430bafac78b26c5336b4efef861919f29b089d8897214a47e7bd540c"
+    },
+    "query_type": "GetAccount",
+    "account_id": "admin@test"
+}

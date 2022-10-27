@@ -1,0 +1,494 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Oct-2022 21:18:00.558 警告 [main] org.apache.tomcat.util.digester.Digester.endElement   No rules found matching 'Server/Service/Connector/Engine/Realm/Realm'.
+19-Oct-2022 21:18:00.564 警告 [main] org.apache.tomcat.util.digester.Digester.endElement   No rules found matching 'Server/Service/Connector/Engine/Realm'.
+19-Oct-2022 21:18:00.565 警告 [main] org.apache.tomcat.util.digester.Digester.endElement   No rules found matching 'Server/Service/Connector/Engine/Host/Valve'.
+19-Oct-2022 21:18:00.566 警告 [main] org.apache.tomcat.util.digester.Digester.endElement   No rules found matching 'Server/Service/Connector/Engine/Host'.
+19-Oct-2022 21:18:00.566 警告 [main] org.apache.tomcat.util.digester.Digester.endElement   No rules found matching 'Server/Service/Connector/Engine'.
+19-Oct-2022 21:18:00.575 重大 [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 171 column 5: 要素タイプ"Connector"は、対応する終了タグ"</Connector>"で終了する必要があります。
+	org.xml.sax.SAXParseException; systemId: file:/home/rikuto/apache-tomcat-8.5.55/conf/server.xml; lineNumber: 171; columnNumber: 5; 要素タイプ"Connector"は、対応する終了タグ"</Connector>"で終了する必要があります。
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1685)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2883)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1512)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:611)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:303)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+19-Oct-2022 21:18:00.576 警告 [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: 要素タイプ"Connector"は、対応する終了タグ"</Connector>"で終了する必要があります。
+19-Oct-2022 21:18:00.576 重大 [main] org.apache.catalina.startup.Catalina.start Cannot start server. Server instance is not configured.
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Oct-2022 22:40:18.349 警告 [main] org.apache.tomcat.util.digester.Digester.endElement   No rules found matching 'Server/Service/Connector/Engine/Realm/Realm'.
+19-Oct-2022 22:40:18.354 警告 [main] org.apache.tomcat.util.digester.Digester.endElement   No rules found matching 'Server/Service/Connector/Engine/Realm'.
+19-Oct-2022 22:40:18.355 警告 [main] org.apache.tomcat.util.digester.Digester.endElement   No rules found matching 'Server/Service/Connector/Engine/Host/Valve'.
+19-Oct-2022 22:40:18.355 警告 [main] org.apache.tomcat.util.digester.Digester.endElement   No rules found matching 'Server/Service/Connector/Engine/Host'.
+19-Oct-2022 22:40:18.355 警告 [main] org.apache.tomcat.util.digester.Digester.endElement   No rules found matching 'Server/Service/Connector/Engine'.
+19-Oct-2022 22:40:18.363 重大 [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 171 column 5: 要素タイプ"Connector"は、対応する終了タグ"</Connector>"で終了する必要があります。
+	org.xml.sax.SAXParseException; systemId: file:/home/rikuto/apache-tomcat-8.5.55/conf/server.xml; lineNumber: 171; columnNumber: 5; 要素タイプ"Connector"は、対応する終了タグ"</Connector>"で終了する必要があります。
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+		at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1685)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2883)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+		at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+		at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+		at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+		at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1512)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:611)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:303)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+19-Oct-2022 22:40:18.364 警告 [main] org.apache.catalina.startup.Catalina.load Catalina.start using conf/server.xml: 要素タイプ"Connector"は、対応する終了タグ"</Connector>"で終了する必要があります。
+19-Oct-2022 22:40:18.364 重大 [main] org.apache.catalina.startup.Catalina.start Cannot start server. Server instance is not configured.
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Oct-2022 22:42:46.302 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名：Apache Tomcat/8.5.55
+19-Oct-2022 22:42:46.332 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:          May 5 2020 22:10:54 UTC
+19-Oct-2022 22:42:46.332 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号：8.5.55.0
+19-Oct-2022 22:42:46.332 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:               Linux
+19-Oct-2022 22:42:46.333 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            5.10.16.3-microsoft-standard-WSL2
+19-Oct-2022 22:42:46.335 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:          amd64
+19-Oct-2022 22:42:46.335 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+19-Oct-2022 22:42:46.335 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           11.0.15+10-Ubuntu-0ubuntu0.18.04.1
+19-Oct-2022 22:42:46.335 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ：            Private Build
+19-Oct-2022 22:42:46.335 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rikuto/apache-tomcat-8.5.55
+19-Oct-2022 22:42:46.335 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rikuto/apache-tomcat-8.5.55
+19-Oct-2022 22:42:46.337 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.base/java.lang=ALL-UNNAMED
+19-Oct-2022 22:42:46.337 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.base/java.io=ALL-UNNAMED
+19-Oct-2022 22:42:46.338 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+19-Oct-2022 22:42:46.338 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.util.logging.config.file=/home/rikuto/apache-tomcat-8.5.55/conf/logging.properties
+19-Oct-2022 22:42:46.338 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Oct-2022 22:42:46.338 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djdk.tls.ephemeralDHKeySize=2048
+19-Oct-2022 22:42:46.338 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Oct-2022 22:42:46.338 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+19-Oct-2022 22:42:46.338 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dignore.endorsed.dirs=
+19-Oct-2022 22:42:46.339 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dcatalina.base=/home/rikuto/apache-tomcat-8.5.55
+19-Oct-2022 22:42:46.339 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dcatalina.home=/home/rikuto/apache-tomcat-8.5.55
+19-Oct-2022 22:42:46.339 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.io.tmpdir=/home/rikuto/apache-tomcat-8.5.55/temp
+19-Oct-2022 22:42:46.339 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib] に存在しません。
+19-Oct-2022 22:42:46.366 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8180"] を初期化します。
+19-Oct-2022 22:42:46.373 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Oct-2022 22:42:46.383 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 433 ms
+19-Oct-2022 22:42:46.427 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+19-Oct-2022 22:42:46.427 情報 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+19-Oct-2022 22:42:46.440 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/manager] を配備します
+19-Oct-2022 22:42:46.643 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/manager] の Web アプリケーションの配備は [201] ms で完了しました。
+19-Oct-2022 22:42:46.643 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/examples] を配備します
+19-Oct-2022 22:42:46.799 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/examples] の Web アプリケーションの配備は [156] ms で完了しました。
+19-Oct-2022 22:42:46.800 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/docs] を配備します
+19-Oct-2022 22:42:46.812 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/docs] の Web アプリケーションの配備は [12] ms で完了しました。
+19-Oct-2022 22:42:46.813 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/ROOT] を配備します
+19-Oct-2022 22:42:46.825 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/ROOT] の Web アプリケーションの配備は [13] ms で完了しました。
+19-Oct-2022 22:42:46.825 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/host-manager] を配備します
+19-Oct-2022 22:42:46.839 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/host-manager] の Web アプリケーションの配備は [13] ms で完了しました。
+19-Oct-2022 22:42:46.845 情報 [main] org.apache.coyote.AbstractProtocol.start プロトコルハンドラー ["http-nio-8180"] を開始しました。
+19-Oct-2022 22:42:46.853 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 469 ms
+19-Oct-2022 23:16:52.338 情報 [main] org.apache.catalina.core.StandardServer.await 有効なシャットダウンコマンドがシャットダウンポート経由で受信されました。 サーバーインスタンスを停止します。
+19-Oct-2022 23:16:52.339 情報 [main] org.apache.coyote.AbstractProtocol.pause ProtocolHandler ["http-nio-8180"] を一時停止します。
+19-Oct-2022 23:16:52.346 情報 [main] org.apache.catalina.core.StandardService.stopInternal サービス [Catalina] を停止します
+19-Oct-2022 23:16:52.392 情報 [main] org.apache.coyote.AbstractProtocol.stop ProtocolHandler ["http-nio-8180"]の停止中
+19-Oct-2022 23:16:52.395 情報 [main] org.apache.coyote.AbstractProtocol.destroy ProtocolHandler ["http-nio-8180"] を破棄します。
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Oct-2022 12:07:43.483 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名：Apache Tomcat/8.5.55
+21-Oct-2022 12:07:43.488 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:          May 5 2020 22:10:54 UTC
+21-Oct-2022 12:07:43.488 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号：8.5.55.0
+21-Oct-2022 12:07:43.489 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:               Linux
+21-Oct-2022 12:07:43.489 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            5.10.16.3-microsoft-standard-WSL2
+21-Oct-2022 12:07:43.489 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:          amd64
+21-Oct-2022 12:07:43.489 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+21-Oct-2022 12:07:43.489 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           11.0.15+10-Ubuntu-0ubuntu0.18.04.1
+21-Oct-2022 12:07:43.490 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ：            Private Build
+21-Oct-2022 12:07:43.491 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rikuto/apache-tomcat-8.5.55
+21-Oct-2022 12:07:43.491 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rikuto/apache-tomcat-8.5.55
+21-Oct-2022 12:07:43.492 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.base/java.lang=ALL-UNNAMED
+21-Oct-2022 12:07:43.493 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.base/java.io=ALL-UNNAMED
+21-Oct-2022 12:07:43.493 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Oct-2022 12:07:43.493 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.util.logging.config.file=/home/rikuto/apache-tomcat-8.5.55/conf/logging.properties
+21-Oct-2022 12:07:43.493 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Oct-2022 12:07:43.493 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djdk.tls.ephemeralDHKeySize=2048
+21-Oct-2022 12:07:43.494 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Oct-2022 12:07:43.494 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Oct-2022 12:07:43.494 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dignore.endorsed.dirs=
+21-Oct-2022 12:07:43.494 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dcatalina.base=/home/rikuto/apache-tomcat-8.5.55
+21-Oct-2022 12:07:43.494 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dcatalina.home=/home/rikuto/apache-tomcat-8.5.55
+21-Oct-2022 12:07:43.494 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.io.tmpdir=/home/rikuto/apache-tomcat-8.5.55/temp
+21-Oct-2022 12:07:43.494 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib] に存在しません。
+21-Oct-2022 12:07:43.546 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8180"] を初期化します。
+21-Oct-2022 12:07:43.554 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Oct-2022 12:07:43.564 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 546 ms
+21-Oct-2022 12:07:43.610 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+21-Oct-2022 12:07:43.611 情報 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+21-Oct-2022 12:07:43.624 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/manager] を配備します
+21-Oct-2022 12:07:51.381 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+21-Oct-2022 12:07:51.417 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/manager] の Web アプリケーションの配備は [7,791] ms で完了しました。
+21-Oct-2022 12:07:51.417 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/examples] を配備します
+21-Oct-2022 12:07:59.009 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+21-Oct-2022 12:07:59.031 WARN [localhost-startStop-1] org.keycloak.adapters.tomcat.AbstractKeycloakAuthenticatorValve.keycloakInit No adapter configuration. Keycloak is unconfigured and will deny all requests.
+21-Oct-2022 12:07:59.035 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/examples] の Web アプリケーションの配備は [7,618] ms で完了しました。
+21-Oct-2022 12:07:59.035 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/docs] を配備します
+21-Oct-2022 12:08:05.312 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+21-Oct-2022 12:08:05.314 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/docs] の Web アプリケーションの配備は [6,279] ms で完了しました。
+21-Oct-2022 12:08:05.314 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/ROOT] を配備します
+21-Oct-2022 12:08:12.411 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+21-Oct-2022 12:08:12.413 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/ROOT] の Web アプリケーションの配備は [7,099] ms で完了しました。
+21-Oct-2022 12:08:12.414 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/host-manager] を配備します
+21-Oct-2022 12:08:20.314 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+21-Oct-2022 12:08:20.315 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/host-manager] の Web アプリケーションの配備は [7,901] ms で完了しました。
+21-Oct-2022 12:08:20.326 情報 [main] org.apache.coyote.AbstractProtocol.start プロトコルハンドラー ["http-nio-8180"] を開始しました。
+21-Oct-2022 12:08:20.338 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 36773 ms
+21-Oct-2022 12:09:24.480 情報 [main] org.apache.catalina.core.StandardServer.await 有効なシャットダウンコマンドがシャットダウンポート経由で受信されました。 サーバーインスタンスを停止します。
+21-Oct-2022 12:09:24.481 情報 [main] org.apache.coyote.AbstractProtocol.pause ProtocolHandler ["http-nio-8180"] を一時停止します。
+21-Oct-2022 12:09:24.488 情報 [main] org.apache.catalina.core.StandardService.stopInternal サービス [Catalina] を停止します
+21-Oct-2022 12:09:24.535 情報 [main] org.apache.coyote.AbstractProtocol.stop ProtocolHandler ["http-nio-8180"]の停止中
+21-Oct-2022 12:09:24.539 情報 [main] org.apache.coyote.AbstractProtocol.destroy ProtocolHandler ["http-nio-8180"] を破棄します。
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Oct-2022 13:58:33.348 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名：Apache Tomcat/8.5.55
+21-Oct-2022 13:58:33.353 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:          May 5 2020 22:10:54 UTC
+21-Oct-2022 13:58:33.354 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号：8.5.55.0
+21-Oct-2022 13:58:33.354 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:               Linux
+21-Oct-2022 13:58:33.354 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            5.10.16.3-microsoft-standard-WSL2
+21-Oct-2022 13:58:33.355 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:          amd64
+21-Oct-2022 13:58:33.355 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+21-Oct-2022 13:58:33.355 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           11.0.15+10-Ubuntu-0ubuntu0.18.04.1
+21-Oct-2022 13:58:33.356 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ：            Private Build
+21-Oct-2022 13:58:33.356 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rikuto/apache-tomcat-8.5.55
+21-Oct-2022 13:58:33.357 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rikuto/apache-tomcat-8.5.55
+21-Oct-2022 13:58:33.358 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.base/java.lang=ALL-UNNAMED
+21-Oct-2022 13:58:33.358 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.base/java.io=ALL-UNNAMED
+21-Oct-2022 13:58:33.358 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Oct-2022 13:58:33.359 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.util.logging.config.file=/home/rikuto/apache-tomcat-8.5.55/conf/logging.properties
+21-Oct-2022 13:58:33.359 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Oct-2022 13:58:33.359 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djdk.tls.ephemeralDHKeySize=2048
+21-Oct-2022 13:58:33.359 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Oct-2022 13:58:33.359 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Oct-2022 13:58:33.359 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dignore.endorsed.dirs=
+21-Oct-2022 13:58:33.359 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dcatalina.base=/home/rikuto/apache-tomcat-8.5.55
+21-Oct-2022 13:58:33.360 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dcatalina.home=/home/rikuto/apache-tomcat-8.5.55
+21-Oct-2022 13:58:33.360 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.io.tmpdir=/home/rikuto/apache-tomcat-8.5.55/temp
+21-Oct-2022 13:58:33.360 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib] に存在しません。
+21-Oct-2022 13:58:33.406 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8180"] を初期化します。
+21-Oct-2022 13:58:33.414 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Oct-2022 13:58:33.425 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 482 ms
+21-Oct-2022 13:58:33.462 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+21-Oct-2022 13:58:33.462 情報 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+21-Oct-2022 13:58:33.483 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/manager] を配備します
+21-Oct-2022 13:58:41.216 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+21-Oct-2022 13:58:41.248 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/manager] の Web アプリケーションの配備は [7,763] ms で完了しました。
+21-Oct-2022 13:58:41.248 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/examples] を配備します
+21-Oct-2022 13:58:48.755 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+21-Oct-2022 13:58:48.907 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/examples] の Web アプリケーションの配備は [7,659] ms で完了しました。
+21-Oct-2022 13:58:48.908 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/docs] を配備します
+21-Oct-2022 13:58:56.475 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+21-Oct-2022 13:58:56.476 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/docs] の Web アプリケーションの配備は [7,568] ms で完了しました。
+21-Oct-2022 13:58:56.476 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/ROOT] を配備します
+21-Oct-2022 13:59:04.475 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+21-Oct-2022 13:59:04.476 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/ROOT] の Web アプリケーションの配備は [8,000] ms で完了しました。
+21-Oct-2022 13:59:04.476 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/host-manager] を配備します
+21-Oct-2022 13:59:12.120 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+21-Oct-2022 13:59:12.121 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/host-manager] の Web アプリケーションの配備は [7,645] ms で完了しました。
+21-Oct-2022 13:59:12.129 情報 [main] org.apache.coyote.AbstractProtocol.start プロトコルハンドラー ["http-nio-8180"] を開始しました。
+21-Oct-2022 13:59:12.143 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 38717 ms
+21-Oct-2022 13:59:12.636 INFO [http-nio-8180-exec-2] org.keycloak.adapters.KeycloakDeployment.resolveUrls Loaded URLs from http://localhost:8080/auth/realms/demo-api/.well-known/openid-configuration
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Oct-2022 16:13:06.148 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名：Apache Tomcat/8.5.55
+21-Oct-2022 16:13:06.158 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:          May 5 2020 22:10:54 UTC
+21-Oct-2022 16:13:06.159 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号：8.5.55.0
+21-Oct-2022 16:13:06.159 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:               Linux
+21-Oct-2022 16:13:06.159 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            5.10.16.3-microsoft-standard-WSL2
+21-Oct-2022 16:13:06.159 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:          amd64
+21-Oct-2022 16:13:06.160 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+21-Oct-2022 16:13:06.160 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           11.0.15+10-Ubuntu-0ubuntu0.18.04.1
+21-Oct-2022 16:13:06.161 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ：            Private Build
+21-Oct-2022 16:13:06.162 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rikuto/apache-tomcat-8.5.55
+21-Oct-2022 16:13:06.162 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rikuto/apache-tomcat-8.5.55
+21-Oct-2022 16:13:06.163 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.base/java.lang=ALL-UNNAMED
+21-Oct-2022 16:13:06.163 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.base/java.io=ALL-UNNAMED
+21-Oct-2022 16:13:06.163 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Oct-2022 16:13:06.163 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.util.logging.config.file=/home/rikuto/apache-tomcat-8.5.55/conf/logging.properties
+21-Oct-2022 16:13:06.164 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Oct-2022 16:13:06.164 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djdk.tls.ephemeralDHKeySize=2048
+21-Oct-2022 16:13:06.164 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Oct-2022 16:13:06.164 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Oct-2022 16:13:06.164 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dignore.endorsed.dirs=
+21-Oct-2022 16:13:06.165 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dcatalina.base=/home/rikuto/apache-tomcat-8.5.55
+21-Oct-2022 16:13:06.165 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dcatalina.home=/home/rikuto/apache-tomcat-8.5.55
+21-Oct-2022 16:13:06.165 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.io.tmpdir=/home/rikuto/apache-tomcat-8.5.55/temp
+21-Oct-2022 16:13:06.165 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib] に存在しません。
+21-Oct-2022 16:13:06.227 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8180"] を初期化します。
+21-Oct-2022 16:13:06.239 重大 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8180]]
+	org.apache.catalina.LifecycleException: プロトコルハンドラの初期化に失敗しました
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1068)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:848)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:303)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: java.net.BindException: アドレスは既に使用中です
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:459)
+		at java.base/sun.nio.ch.Net.bind(Net.java:448)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:221)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1118)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:222)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:587)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1066)
+		... 13 more
+21-Oct-2022 16:13:06.241 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 663 ms
+21-Oct-2022 16:13:06.284 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+21-Oct-2022 16:13:06.284 情報 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+21-Oct-2022 16:13:06.300 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/manager] を配備します
+21-Oct-2022 16:13:15.678 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+21-Oct-2022 16:13:15.715 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/manager] の Web アプリケーションの配備は [9,414] ms で完了しました。
+21-Oct-2022 16:13:15.715 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/examples] を配備します
+21-Oct-2022 16:13:23.741 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+21-Oct-2022 16:13:23.962 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/examples] の Web アプリケーションの配備は [8,246] ms で完了しました。
+21-Oct-2022 16:13:23.962 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/docs] を配備します
+21-Oct-2022 16:13:32.019 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+21-Oct-2022 16:13:32.021 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/docs] の Web アプリケーションの配備は [8,059] ms で完了しました。
+21-Oct-2022 16:13:32.021 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/ROOT] を配備します
+21-Oct-2022 16:13:40.243 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+21-Oct-2022 16:13:40.245 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/ROOT] の Web アプリケーションの配備は [8,224] ms で完了しました。
+21-Oct-2022 16:13:40.245 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/host-manager] を配備します
+21-Oct-2022 16:13:47.741 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+21-Oct-2022 16:13:47.744 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/host-manager] の Web アプリケーションの配備は [7,498] ms で完了しました。
+21-Oct-2022 16:13:47.753 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 41511 ms
+21-Oct-2022 16:13:47.756 重大 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+	java.net.BindException: アドレスは既に使用中です (Bind failed)
+		at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+		at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:452)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:257)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:421)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:776)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:722)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:343)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+21-Oct-2022 16:13:47.757 情報 [main] org.apache.coyote.AbstractProtocol.pause ProtocolHandler ["http-nio-8180"] を一時停止します。
+21-Oct-2022 16:13:47.757 情報 [main] org.apache.catalina.core.StandardService.stopInternal サービス [Catalina] を停止します
+21-Oct-2022 16:13:47.786 情報 [main] org.apache.coyote.AbstractProtocol.stop ProtocolHandler ["http-nio-8180"]の停止中
+21-Oct-2022 16:13:47.786 情報 [main] org.apache.coyote.AbstractProtocol.destroy ProtocolHandler ["http-nio-8180"] を破棄します。
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Oct-2022 16:18:00.842 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名：Apache Tomcat/8.5.55
+21-Oct-2022 16:18:00.852 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:          May 5 2020 22:10:54 UTC
+21-Oct-2022 16:18:00.852 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号：8.5.55.0
+21-Oct-2022 16:18:00.853 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:               Linux
+21-Oct-2022 16:18:00.853 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            5.10.16.3-microsoft-standard-WSL2
+21-Oct-2022 16:18:00.853 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:          amd64
+21-Oct-2022 16:18:00.853 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+21-Oct-2022 16:18:00.854 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           11.0.15+10-Ubuntu-0ubuntu0.18.04.1
+21-Oct-2022 16:18:00.854 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ：            Private Build
+21-Oct-2022 16:18:00.855 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rikuto/apache-tomcat-8.5.55
+21-Oct-2022 16:18:00.855 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rikuto/apache-tomcat-8.5.55
+21-Oct-2022 16:18:00.856 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.base/java.lang=ALL-UNNAMED
+21-Oct-2022 16:18:00.857 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.base/java.io=ALL-UNNAMED
+21-Oct-2022 16:18:00.857 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Oct-2022 16:18:00.857 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.util.logging.config.file=/home/rikuto/apache-tomcat-8.5.55/conf/logging.properties
+21-Oct-2022 16:18:00.857 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Oct-2022 16:18:00.857 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djdk.tls.ephemeralDHKeySize=2048
+21-Oct-2022 16:18:00.857 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Oct-2022 16:18:00.857 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+21-Oct-2022 16:18:00.857 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dignore.endorsed.dirs=
+21-Oct-2022 16:18:00.857 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dcatalina.base=/home/rikuto/apache-tomcat-8.5.55
+21-Oct-2022 16:18:00.858 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dcatalina.home=/home/rikuto/apache-tomcat-8.5.55
+21-Oct-2022 16:18:00.858 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.io.tmpdir=/home/rikuto/apache-tomcat-8.5.55/temp
+21-Oct-2022 16:18:00.858 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib] に存在しません。
+21-Oct-2022 16:18:00.914 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8180"] を初期化します。
+21-Oct-2022 16:18:00.924 重大 [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8180]]
+	org.apache.catalina.LifecycleException: プロトコルハンドラの初期化に失敗しました
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1068)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:848)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:303)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: java.net.BindException: アドレスは既に使用中です
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:459)
+		at java.base/sun.nio.ch.Net.bind(Net.java:448)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:221)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1118)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:222)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:587)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:74)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1066)
+		... 13 more
+21-Oct-2022 16:18:00.927 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 580 ms
+21-Oct-2022 16:18:00.970 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+21-Oct-2022 16:18:00.971 情報 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+21-Oct-2022 16:18:00.985 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/manager] を配備します
+21-Oct-2022 16:18:09.687 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+21-Oct-2022 16:18:09.724 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/manager] の Web アプリケーションの配備は [8,738] ms で完了しました。
+21-Oct-2022 16:18:09.725 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/examples] を配備します
+21-Oct-2022 16:18:18.183 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+21-Oct-2022 16:18:18.395 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/examples] の Web アプリケーションの配備は [8,670] ms で完了しました。
+21-Oct-2022 16:18:18.396 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/docs] を配備します
+21-Oct-2022 16:18:26.518 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+21-Oct-2022 16:18:26.520 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/docs] の Web アプリケーションの配備は [8,123] ms で完了しました。
+21-Oct-2022 16:18:26.520 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/ROOT] を配備します
+21-Oct-2022 16:18:34.885 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+21-Oct-2022 16:18:34.886 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/ROOT] の Web アプリケーションの配備は [8,366] ms で完了しました。
+21-Oct-2022 16:18:34.887 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/host-manager] を配備します
+21-Oct-2022 16:18:43.019 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+21-Oct-2022 16:18:43.021 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/host-manager] の Web アプリケーションの配備は [8,134] ms で完了しました。
+21-Oct-2022 16:18:43.030 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 42102 ms
+21-Oct-2022 16:18:43.032 重大 [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+	java.net.BindException: アドレスは既に使用中です (Bind failed)
+		at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+		at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:452)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:257)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:421)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:776)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:722)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:343)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+21-Oct-2022 16:18:43.033 情報 [main] org.apache.coyote.AbstractProtocol.pause ProtocolHandler ["http-nio-8180"] を一時停止します。
+21-Oct-2022 16:18:43.033 情報 [main] org.apache.catalina.core.StandardService.stopInternal サービス [Catalina] を停止します
+21-Oct-2022 16:18:43.060 情報 [main] org.apache.coyote.AbstractProtocol.stop ProtocolHandler ["http-nio-8180"]の停止中
+21-Oct-2022 16:18:43.060 情報 [main] org.apache.coyote.AbstractProtocol.destroy ProtocolHandler ["http-nio-8180"] を破棄します。
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Oct-2022 11:31:09.232 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名：Apache Tomcat/8.5.55
+23-Oct-2022 11:31:09.237 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:          May 5 2020 22:10:54 UTC
+23-Oct-2022 11:31:09.238 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号：8.5.55.0
+23-Oct-2022 11:31:09.238 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:               Linux
+23-Oct-2022 11:31:09.239 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            5.10.16.3-microsoft-standard-WSL2
+23-Oct-2022 11:31:09.239 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:          amd64
+23-Oct-2022 11:31:09.239 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+23-Oct-2022 11:31:09.239 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           11.0.15+10-Ubuntu-0ubuntu0.18.04.1
+23-Oct-2022 11:31:09.239 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ：            Private Build
+23-Oct-2022 11:31:09.240 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rikuto/apache-tomcat-8.5.55
+23-Oct-2022 11:31:09.240 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rikuto/apache-tomcat-8.5.55
+23-Oct-2022 11:31:09.241 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.base/java.lang=ALL-UNNAMED
+23-Oct-2022 11:31:09.242 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.base/java.io=ALL-UNNAMED
+23-Oct-2022 11:31:09.242 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Oct-2022 11:31:09.242 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.util.logging.config.file=/home/rikuto/apache-tomcat-8.5.55/conf/logging.properties
+23-Oct-2022 11:31:09.242 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Oct-2022 11:31:09.242 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djdk.tls.ephemeralDHKeySize=2048
+23-Oct-2022 11:31:09.242 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Oct-2022 11:31:09.243 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+23-Oct-2022 11:31:09.243 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dignore.endorsed.dirs=
+23-Oct-2022 11:31:09.243 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dcatalina.base=/home/rikuto/apache-tomcat-8.5.55
+23-Oct-2022 11:31:09.243 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dcatalina.home=/home/rikuto/apache-tomcat-8.5.55
+23-Oct-2022 11:31:09.243 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.io.tmpdir=/home/rikuto/apache-tomcat-8.5.55/temp
+23-Oct-2022 11:31:09.243 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib] に存在しません。
+23-Oct-2022 11:31:09.293 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8180"] を初期化します。
+23-Oct-2022 11:31:09.302 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Oct-2022 11:31:09.312 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 584 ms
+23-Oct-2022 11:31:09.362 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+23-Oct-2022 11:31:09.363 情報 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+23-Oct-2022 11:31:09.379 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/manager] を配備します
+23-Oct-2022 11:31:16.676 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+23-Oct-2022 11:31:16.716 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/manager] の Web アプリケーションの配備は [7,336] ms で完了しました。
+23-Oct-2022 11:31:16.716 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/examples] を配備します
+23-Oct-2022 11:31:23.614 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+23-Oct-2022 11:31:23.803 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/examples] の Web アプリケーションの配備は [7,087] ms で完了しました。
+23-Oct-2022 11:31:23.804 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/docs] を配備します
+23-Oct-2022 11:31:30.045 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+23-Oct-2022 11:31:30.046 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/docs] の Web アプリケーションの配備は [6,242] ms で完了しました。
+23-Oct-2022 11:31:30.047 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/ROOT] を配備します
+23-Oct-2022 11:31:36.103 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+23-Oct-2022 11:31:36.105 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/ROOT] の Web アプリケーションの配備は [6,058] ms で完了しました。
+23-Oct-2022 11:31:36.105 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/host-manager] を配備します
+23-Oct-2022 11:31:42.671 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+23-Oct-2022 11:31:42.673 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/host-manager] の Web アプリケーションの配備は [6,568] ms で完了しました。
+23-Oct-2022 11:31:42.680 情報 [main] org.apache.coyote.AbstractProtocol.start プロトコルハンドラー ["http-nio-8180"] を開始しました。
+23-Oct-2022 11:31:42.695 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 33382 ms
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Oct-2022 15:32:02.012 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Serverのバージョン名：Apache Tomcat/8.5.55
+27-Oct-2022 15:32:02.018 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Server ビルド:          May 5 2020 22:10:54 UTC
+27-Oct-2022 15:32:02.018 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log サーバーのバージョン番号：8.5.55.0
+27-Oct-2022 15:32:02.019 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS 名:               Linux
+27-Oct-2022 15:32:02.019 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log OS バージョン:            5.10.102.1-microsoft-standard-WSL2
+27-Oct-2022 15:32:02.019 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log アーキテクチャ:          amd64
+27-Oct-2022 15:32:02.019 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+27-Oct-2022 15:32:02.019 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM バージョン:           11.0.16+8-post-Ubuntu-0ubuntu118.04
+27-Oct-2022 15:32:02.019 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM ベンダ：            Ubuntu
+27-Oct-2022 15:32:02.020 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/rikuto/apache-tomcat-8.5.55
+27-Oct-2022 15:32:02.020 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/rikuto/apache-tomcat-8.5.55
+27-Oct-2022 15:32:02.021 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.base/java.lang=ALL-UNNAMED
+27-Oct-2022 15:32:02.021 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.base/java.io=ALL-UNNAMED
+27-Oct-2022 15:32:02.021 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：--add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+27-Oct-2022 15:32:02.021 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.util.logging.config.file=/home/rikuto/apache-tomcat-8.5.55/conf/logging.properties
+27-Oct-2022 15:32:02.022 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Oct-2022 15:32:02.022 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djdk.tls.ephemeralDHKeySize=2048
+27-Oct-2022 15:32:02.022 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Oct-2022 15:32:02.022 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Oct-2022 15:32:02.022 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dignore.endorsed.dirs=
+27-Oct-2022 15:32:02.022 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dcatalina.base=/home/rikuto/apache-tomcat-8.5.55
+27-Oct-2022 15:32:02.022 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Dcatalina.home=/home/rikuto/apache-tomcat-8.5.55
+27-Oct-2022 15:32:02.022 情報 [main] org.apache.catalina.startup.VersionLoggerListener.log コマンドライン引数：-Djava.io.tmpdir=/home/rikuto/apache-tomcat-8.5.55/temp
+27-Oct-2022 15:32:02.022 情報 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib] に存在しません。
+27-Oct-2022 15:32:02.071 情報 [main] org.apache.coyote.AbstractProtocol.init プロトコルハンドラ ["http-nio-8180"] を初期化します。
+27-Oct-2022 15:32:02.078 情報 [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Oct-2022 15:32:02.090 情報 [main] org.apache.catalina.startup.Catalina.load Initialization processed in 499 ms
+27-Oct-2022 15:32:02.131 情報 [main] org.apache.catalina.core.StandardService.startInternal サービス [Catalina] を起動します
+27-Oct-2022 15:32:02.131 情報 [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.55
+27-Oct-2022 15:32:02.152 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/manager] を配備します
+27-Oct-2022 15:32:09.360 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+27-Oct-2022 15:32:09.398 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/manager] の Web アプリケーションの配備は [7,244] ms で完了しました。
+27-Oct-2022 15:32:09.399 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/examples] を配備します
+27-Oct-2022 15:32:16.032 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+27-Oct-2022 15:32:16.191 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/examples] の Web アプリケーションの配備は [6,792] ms で完了しました。
+27-Oct-2022 15:32:16.191 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/docs] を配備します
+27-Oct-2022 15:32:22.022 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+27-Oct-2022 15:32:22.024 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/docs] の Web アプリケーションの配備は [5,833] ms で完了しました。
+27-Oct-2022 15:32:22.024 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/ROOT] を配備します
+27-Oct-2022 15:32:27.866 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+27-Oct-2022 15:32:27.868 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/ROOT] の Web アプリケーションの配備は [5,843] ms で完了しました。
+27-Oct-2022 15:32:27.868 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Webアプリケーションディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/host-manager] を配備します
+27-Oct-2022 15:32:33.651 情報 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。
+27-Oct-2022 15:32:33.653 情報 [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory ディレクトリ [/home/rikuto/apache-tomcat-8.5.55/webapps/host-manager] の Web アプリケーションの配備は [5,785] ms で完了しました。
+27-Oct-2022 15:32:33.660 情報 [main] org.apache.coyote.AbstractProtocol.start プロトコルハンドラー ["http-nio-8180"] を開始しました。
+27-Oct-2022 15:32:33.673 情報 [main] org.apache.catalina.startup.Catalina.start Server startup in 31583 ms

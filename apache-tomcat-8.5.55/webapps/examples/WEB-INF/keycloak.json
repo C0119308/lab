@@ -1,0 +1,10 @@
+{
+  "realm": "demo-api",
+  "auth-server-url": "http://localhost:8080/auth/",
+  "ssl-required": "none",
+  "resource": "tomcat-examples",
+  "credentials": {
+    "secret": "754cf06c-7f03-4e52-8493-d4ed575c2ec0"
+  },
+  "confidential-port": 0
+}

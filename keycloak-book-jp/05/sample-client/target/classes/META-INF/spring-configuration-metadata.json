@@ -1,0 +1,106 @@
+{
+  "groups": [
+    {
+      "name": "clientapp.config",
+      "type": "sample.clientapp.config.ClientAppConfiguration",
+      "sourceType": "sample.clientapp.config.ClientAppConfiguration"
+    },
+    {
+      "name": "oauth.config",
+      "type": "sample.clientapp.config.OauthConfiguration",
+      "sourceType": "sample.clientapp.config.OauthConfiguration"
+    },
+    {
+      "name": "server.ssl",
+      "type": "sample.clientapp.config.SslConfiguration",
+      "sourceType": "sample.clientapp.config.SslConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "clientapp.config.apiserver-url",
+      "type": "java.lang.String",
+      "sourceType": "sample.clientapp.config.ClientAppConfiguration"
+    },
+    {
+      "name": "clientapp.config.authorization-endpoint",
+      "type": "java.lang.String",
+      "sourceType": "sample.clientapp.config.ClientAppConfiguration"
+    },
+    {
+      "name": "clientapp.config.client-id",
+      "type": "java.lang.String",
+      "sourceType": "sample.clientapp.config.ClientAppConfiguration"
+    },
+    {
+      "name": "clientapp.config.client-secret",
+      "type": "java.lang.String",
+      "sourceType": "sample.clientapp.config.ClientAppConfiguration"
+    },
+    {
+      "name": "clientapp.config.revoke-endpoint",
+      "type": "java.lang.String",
+      "sourceType": "sample.clientapp.config.ClientAppConfiguration"
+    },
+    {
+      "name": "clientapp.config.scope",
+      "type": "java.lang.String",
+      "sourceType": "sample.clientapp.config.ClientAppConfiguration"
+    },
+    {
+      "name": "clientapp.config.token-endpoint",
+      "type": "java.lang.String",
+      "sourceType": "sample.clientapp.config.ClientAppConfiguration"
+    },
+    {
+      "name": "oauth.config.form-post",
+      "type": "java.lang.Boolean",
+      "sourceType": "sample.clientapp.config.OauthConfiguration",
+      "defaultValue": false
+    },
+    {
+      "name": "oauth.config.nonce",
+      "type": "java.lang.Boolean",
+      "sourceType": "sample.clientapp.config.OauthConfiguration",
+      "defaultValue": false
+    },
+    {
+      "name": "oauth.config.pkce",
+      "type": "java.lang.Boolean",
+      "sourceType": "sample.clientapp.config.OauthConfiguration",
+      "defaultValue": false
+    },
+    {
+      "name": "oauth.config.state",
+      "type": "java.lang.Boolean",
+      "sourceType": "sample.clientapp.config.OauthConfiguration",
+      "defaultValue": false
+    },
+    {
+      "name": "server.ssl.key-password",
+      "type": "java.lang.String",
+      "sourceType": "sample.clientapp.config.SslConfiguration"
+    },
+    {
+      "name": "server.ssl.key-store",
+      "type": "org.springframework.core.io.Resource",
+      "sourceType": "sample.clientapp.config.SslConfiguration"
+    },
+    {
+      "name": "server.ssl.key-store-password",
+      "type": "java.lang.String",
+      "sourceType": "sample.clientapp.config.SslConfiguration"
+    },
+    {
+      "name": "server.ssl.trust-store",
+      "type": "org.springframework.core.io.Resource",
+      "sourceType": "sample.clientapp.config.SslConfiguration"
+    },
+    {
+      "name": "server.ssl.trust-store-password",
+      "type": "java.lang.String",
+      "sourceType": "sample.clientapp.config.SslConfiguration"
+    }
+  ],
+  "hints": []
+}

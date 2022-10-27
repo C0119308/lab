@@ -1,0 +1,246 @@
+21-Oct-2022 12:07:59.027 情報 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-Oct-2022 12:07:59.027 情報 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-Oct-2022 12:07:59.028 情報 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@175102f5')
+21-Oct-2022 12:07:59.034 情報 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('org.keycloak.adapters.AdapterDeploymentContext', 'org.keycloak.adapters.AdapterDeploymentContext@4f20a365')
+21-Oct-2022 12:09:24.519 情報 [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+21-Oct-2022 12:09:24.519 情報 [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+21-Oct-2022 13:58:48.774 情報 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-Oct-2022 13:58:48.774 情報 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-Oct-2022 13:58:48.775 情報 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@3d7b1152')
+21-Oct-2022 13:58:48.906 情報 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('org.keycloak.adapters.AdapterDeploymentContext', 'org.keycloak.adapters.AdapterDeploymentContext@4b299c6')
+21-Oct-2022 13:59:12.640 情報 [http-nio-8180-exec-2] org.apache.catalina.core.ApplicationContext.log SessionListener: sessionCreated('305DD60E0EE0B2C22E46331F790A724F')
+21-Oct-2022 13:59:32.039 情報 [http-nio-8180-exec-3] org.apache.catalina.core.ApplicationContext.log SessionListener: attributeAdded('305DD60E0EE0B2C22E46331F790A724F', 'org.keycloak.adapters.tomcat.CatalinaSessionTokenStore$SerializableKeycloakAccount', 'org.keycloak.adapters.tomcat.CatalinaSessionTokenStore$SerializableKeycloakAccount@2d89754d')
+21-Oct-2022 13:59:32.039 情報 [http-nio-8180-exec-3] org.apache.catalina.core.ApplicationContext.log SessionListener: attributeAdded('305DD60E0EE0B2C22E46331F790A724F', 'org.keycloak.KeycloakSecurityContext', 'org.keycloak.adapters.RefreshableKeycloakSecurityContext@5eb80086')
+21-Oct-2022 14:01:37.084 情報 [http-nio-8180-exec-3] org.apache.catalina.core.ApplicationContext.log SessionListener: sessionCreated('959FCA210522C1657189F2713094133E')
+21-Oct-2022 14:02:37.403 情報 [http-nio-8180-exec-6] org.apache.catalina.core.ApplicationContext.log SessionListener: attributeAdded('959FCA210522C1657189F2713094133E', 'org.keycloak.adapters.tomcat.CatalinaSessionTokenStore$SerializableKeycloakAccount', 'org.keycloak.adapters.tomcat.CatalinaSessionTokenStore$SerializableKeycloakAccount@674595bd')
+21-Oct-2022 14:02:37.403 情報 [http-nio-8180-exec-6] org.apache.catalina.core.ApplicationContext.log SessionListener: attributeAdded('959FCA210522C1657189F2713094133E', 'org.keycloak.KeycloakSecurityContext', 'org.keycloak.adapters.RefreshableKeycloakSecurityContext@491b34e2')
+21-Oct-2022 14:31:12.265 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log SessionListener: sessionDestroyed('305DD60E0EE0B2C22E46331F790A724F')
+21-Oct-2022 14:31:12.266 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log SessionListener: attributeRemoved('305DD60E0EE0B2C22E46331F790A724F', 'org.keycloak.adapters.tomcat.CatalinaSessionTokenStore$SerializableKeycloakAccount', 'org.keycloak.adapters.tomcat.CatalinaSessionTokenStore$SerializableKeycloakAccount@2d89754d')
+21-Oct-2022 14:31:12.266 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log SessionListener: attributeRemoved('305DD60E0EE0B2C22E46331F790A724F', 'org.keycloak.KeycloakSecurityContext', 'org.keycloak.adapters.RefreshableKeycloakSecurityContext@5eb80086')
+21-Oct-2022 14:33:12.273 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log SessionListener: sessionDestroyed('959FCA210522C1657189F2713094133E')
+21-Oct-2022 14:33:12.274 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log SessionListener: attributeRemoved('959FCA210522C1657189F2713094133E', 'org.keycloak.adapters.tomcat.CatalinaSessionTokenStore$SerializableKeycloakAccount', 'org.keycloak.adapters.tomcat.CatalinaSessionTokenStore$SerializableKeycloakAccount@674595bd')
+21-Oct-2022 14:33:12.274 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log SessionListener: attributeRemoved('959FCA210522C1657189F2713094133E', 'org.keycloak.KeycloakSecurityContext', 'org.keycloak.adapters.RefreshableKeycloakSecurityContext@491b34e2')
+21-Oct-2022 15:50:58.062 情報 [http-nio-8180-exec-5] org.apache.catalina.core.ApplicationContext.log SessionListener: sessionCreated('4A3B62169EA86E0AAE2B7E6438B1C9E9')
+21-Oct-2022 16:13:23.769 情報 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-Oct-2022 16:13:23.769 情報 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-Oct-2022 16:13:23.770 情報 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@2cd328bc')
+21-Oct-2022 16:13:23.960 情報 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('org.keycloak.adapters.AdapterDeploymentContext', 'org.keycloak.adapters.AdapterDeploymentContext@be4977')
+21-Oct-2022 16:13:47.769 情報 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+21-Oct-2022 16:13:47.769 情報 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+21-Oct-2022 16:14:35.834 情報 [http-nio-8180-exec-2] org.apache.catalina.core.ApplicationContext.log SessionListener: attributeAdded('4A3B62169EA86E0AAE2B7E6438B1C9E9', 'org.keycloak.adapters.tomcat.CatalinaSessionTokenStore$SerializableKeycloakAccount', 'org.keycloak.adapters.tomcat.CatalinaSessionTokenStore$SerializableKeycloakAccount@ff45b64')
+21-Oct-2022 16:14:35.834 情報 [http-nio-8180-exec-2] org.apache.catalina.core.ApplicationContext.log SessionListener: attributeAdded('4A3B62169EA86E0AAE2B7E6438B1C9E9', 'org.keycloak.KeycloakSecurityContext', 'org.keycloak.adapters.RefreshableKeycloakSecurityContext@4e870648')
+21-Oct-2022 16:14:36.187 情報 [http-nio-8180-exec-3] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@2871476b')
+21-Oct-2022 16:14:36.198 情報 [http-nio-8180-exec-3] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@80535a1')
+21-Oct-2022 16:14:36.922 重大 [http-nio-8180-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke パス[/examples]を持つコンテキスト内のサーブレット[jsp]のServlet.service() が例外[JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/getUserInfo.jsp] の中の[8]行目でエラーが発生しました
+The method getIDToken() is undefined for the type KeycloakSecurityContext
+5: //HTTPセッションからKeycloakセキュリティコンテキスト取得
+6:     KeycloakSecurityContext ksc = (KeycloakSecurityContext)session.getAttribute(KeycloakSecurityContext.class.getName());
+7: //KeycloakセキュリティコンテキストからIDTOKENを入手
+8:     IDToken idToken = ksc.getIDToken();
+9: %>
+10: 
+11: <ul>
+
+
+Stacktrace:]が根本的要因と共に投げられました。
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/getUserInfo.jsp] の中の[8]行目でエラーが発生しました
+The method getIDToken() is undefined for the type KeycloakSecurityContext
+5: //HTTPセッションからKeycloakセキュリティコンテキスト取得
+6:     KeycloakSecurityContext ksc = (KeycloakSecurityContext)session.getAttribute(KeycloakSecurityContext.class.getName());
+7: //KeycloakセキュリティコンテキストからIDTOKENを入手
+8:     IDToken idToken = ksc.getIDToken();
+9: %>
+10: 
+11: <ul>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.keycloak.adapters.tomcat.AbstractAuthenticatedActionsValve.invoke(AbstractAuthenticatedActionsValve.java:67)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:668)
+		at org.keycloak.adapters.tomcat.AbstractKeycloakAuthenticatorValve.invoke(AbstractKeycloakAuthenticatorValve.java:181)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:615)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1627)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+21-Oct-2022 16:17:49.469 重大 [http-nio-8180-exec-4] org.apache.catalina.core.StandardWrapperValve.invoke パス[/examples]を持つコンテキスト内のサーブレット[jsp]のServlet.service() が例外[JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/getUserInfo.jsp] の中の[7]行目でエラーが発生しました
+The method getIDToken() is undefined for the type KeycloakSecurityContext
+4: <%
+5: 
+6:     KeycloakSecurityContext ksc = (KeycloakSecurityContext)session.getAttribute(KeycloakSecurityContext.class.getName());
+7:     IDToken idToken = ksc.getIDToken();
+8: %>
+9: 
+10: <ul>
+
+
+Stacktrace:]が根本的要因と共に投げられました。
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/getUserInfo.jsp] の中の[7]行目でエラーが発生しました
+The method getIDToken() is undefined for the type KeycloakSecurityContext
+4: <%
+5: 
+6:     KeycloakSecurityContext ksc = (KeycloakSecurityContext)session.getAttribute(KeycloakSecurityContext.class.getName());
+7:     IDToken idToken = ksc.getIDToken();
+8: %>
+9: 
+10: <ul>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.keycloak.adapters.tomcat.AbstractAuthenticatedActionsValve.invoke(AbstractAuthenticatedActionsValve.java:67)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:668)
+		at org.keycloak.adapters.tomcat.AbstractKeycloakAuthenticatorValve.invoke(AbstractKeycloakAuthenticatorValve.java:181)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:615)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1627)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+21-Oct-2022 16:18:04.412 重大 [http-nio-8180-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke パス[/examples]を持つコンテキスト内のサーブレット[jsp]のServlet.service() が例外[JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/getUserInfo.jsp] の中の[7]行目でエラーが発生しました
+The method getIDToken() is undefined for the type KeycloakSecurityContext
+4: <%
+5: 
+6:     KeycloakSecurityContext ksc = (KeycloakSecurityContext)session.getAttribute(KeycloakSecurityContext.class.getName());
+7:     IDToken idToken = ksc.getIDToken();
+8: %>
+9: 
+10: <ul>
+
+
+Stacktrace:]が根本的要因と共に投げられました。
+	org.apache.jasper.JasperException: JSPのクラスをコンパイルできません: 
+
+JSPファイル: [/getUserInfo.jsp] の中の[7]行目でエラーが発生しました
+The method getIDToken() is undefined for the type KeycloakSecurityContext
+4: <%
+5: 
+6:     KeycloakSecurityContext ksc = (KeycloakSecurityContext)session.getAttribute(KeycloakSecurityContext.class.getName());
+7:     IDToken idToken = ksc.getIDToken();
+8: %>
+9: 
+10: <ul>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.keycloak.adapters.tomcat.AbstractAuthenticatedActionsValve.invoke(AbstractAuthenticatedActionsValve.java:67)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:668)
+		at org.keycloak.adapters.tomcat.AbstractKeycloakAuthenticatorValve.invoke(AbstractKeycloakAuthenticatorValve.java:181)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:615)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:818)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1627)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+21-Oct-2022 16:18:18.203 情報 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-Oct-2022 16:18:18.204 情報 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-Oct-2022 16:18:18.205 情報 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@b0400f9')
+21-Oct-2022 16:18:18.395 情報 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('org.keycloak.adapters.AdapterDeploymentContext', 'org.keycloak.adapters.AdapterDeploymentContext@8f3c384')
+21-Oct-2022 16:18:43.045 情報 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+21-Oct-2022 16:18:43.045 情報 [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+21-Oct-2022 16:21:25.450 情報 [http-nio-8180-exec-8] org.apache.catalina.core.ApplicationContext.log SessionListener: sessionCreated('E979F274B4F3731BBFAD2B224E4E4209')
+21-Oct-2022 16:21:32.264 情報 [http-nio-8180-exec-10] org.apache.catalina.core.ApplicationContext.log SessionListener: attributeAdded('E979F274B4F3731BBFAD2B224E4E4209', 'org.keycloak.adapters.tomcat.CatalinaSessionTokenStore$SerializableKeycloakAccount', 'org.keycloak.adapters.tomcat.CatalinaSessionTokenStore$SerializableKeycloakAccount@3b6c4555')
+21-Oct-2022 16:21:32.264 情報 [http-nio-8180-exec-10] org.apache.catalina.core.ApplicationContext.log SessionListener: attributeAdded('E979F274B4F3731BBFAD2B224E4E4209', 'org.keycloak.KeycloakSecurityContext', 'org.keycloak.adapters.RefreshableKeycloakSecurityContext@7e6edc5c')
+21-Oct-2022 16:50:12.753 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log SessionListener: sessionDestroyed('4A3B62169EA86E0AAE2B7E6438B1C9E9')
+21-Oct-2022 16:50:12.753 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log SessionListener: attributeRemoved('4A3B62169EA86E0AAE2B7E6438B1C9E9', 'org.keycloak.adapters.tomcat.CatalinaSessionTokenStore$SerializableKeycloakAccount', 'org.keycloak.adapters.tomcat.CatalinaSessionTokenStore$SerializableKeycloakAccount@ff45b64')
+21-Oct-2022 16:50:12.753 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log SessionListener: attributeRemoved('4A3B62169EA86E0AAE2B7E6438B1C9E9', 'org.keycloak.KeycloakSecurityContext', 'org.keycloak.adapters.RefreshableKeycloakSecurityContext@4e870648')
+21-Oct-2022 16:52:12.760 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log SessionListener: sessionDestroyed('E979F274B4F3731BBFAD2B224E4E4209')
+21-Oct-2022 16:52:12.761 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log SessionListener: attributeRemoved('E979F274B4F3731BBFAD2B224E4E4209', 'org.keycloak.adapters.tomcat.CatalinaSessionTokenStore$SerializableKeycloakAccount', 'org.keycloak.adapters.tomcat.CatalinaSessionTokenStore$SerializableKeycloakAccount@3b6c4555')
+21-Oct-2022 16:52:12.761 情報 [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log SessionListener: attributeRemoved('E979F274B4F3731BBFAD2B224E4E4209', 'org.keycloak.KeycloakSecurityContext', 'org.keycloak.adapters.RefreshableKeycloakSecurityContext@7e6edc5c')
