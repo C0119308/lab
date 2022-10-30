@@ -1,7 +1,7 @@
 sample/clientapp/jwt/AccessToken.class
 META-INF/spring-configuration-metadata.json
-sample/clientapp/config/ClientAppConfiguration.class
 sample/clientapp/jwt/RefreshToken.class
+sample/clientapp/config/ClientAppConfiguration.class
 sample/clientapp/jwt/IdToken.class
 sample/clientapp/ClientApp.class
 sample/clientapp/TokenResponse.class
