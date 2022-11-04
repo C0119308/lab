@@ -233,9 +233,9 @@
     <security-constraint>
       <display-name>Example Security Constraint - part 1</display-name>
       <web-resource-collection>
-         <web-resource-name>Protected Area - Allow methods</web-resource-name>
+         <web-resource-name>User Area</web-resource-name>
          <!-- Define the context-relative URL(s) to be protected -->
-         <url-pattern>/jsp/security/protected/*</url-pattern>
+	 <url-pattern>/websocket/*</url-pattern>
          <!-- If you list http methods, only those methods are protected so -->
          <!-- the constraint below ensures all other methods are denied     -->
          <http-method>DELETE</http-method>
@@ -245,27 +245,29 @@
       </web-resource-collection>
       <auth-constraint>
          <!-- Anyone with one of the listed roles may access this area -->
-         <role-name>tomcat</role-name>
-         <role-name>role1</role-name>
+         <role-name>user</role-name>
       </auth-constraint>
     </security-constraint>
+    
     <security-constraint>
       <display-name>Example Security Constraint - part 2</display-name>
       <web-resource-collection>
-         <web-resource-name>Protected Area - Deny methods</web-resource-name>
+         <web-resource-name>Admin Areas</web-resource-name>
          <!-- Define the context-relative URL(s) to be protected -->
-         <url-pattern>/jsp/security/protected/*</url-pattern>
+         <url-pattern>/websocket/*</url-pattern>
          <http-method-omission>DELETE</http-method-omission>
          <http-method-omission>GET</http-method-omission>
          <http-method-omission>POST</http-method-omission>
          <http-method-omission>PUT</http-method-omission>
       </web-resource-collection>
-      <!-- An empty auth constraint denies access -->
-      <auth-constraint />
+      <auth-constraint>
+         <role-name>admin</role-name>
+      </auth-constraint>
     </security-constraint>
+     
 
     <!-- Default login configuration uses form-based authentication -->
-    <!--
+    <!-- com out
     <login-config>
       <auth-method>FORM</auth-method>
       <realm-name>Example Form-Based Authentication Area</realm-name>
@@ -276,50 +278,18 @@
     </login-config>
     -->
 
-    <!-- Security roles referenced by this web application -->
-    <security-role>
-      <role-name>role1</role-name>
-    </security-role>
-    <security-role>
-      <role-name>tomcat</role-name>
-    </security-role>
-    
-    <!-- tuikabun -->
-    <security-constraint>
-    	<web-resource-collection>
-		<web-resource-name>User Area</web-resource-name>
-		<url-pattern>/*</url-pattern>
-	</web-resource-collection>
-	<auth-constraint>
-		<role-name>user</role-name>
-	</auth-constraint>
-    </security-constraint>
-
-    <security-constraint>
-    	<web-resource-collection>
-		<web-resource-name>Admin Area</web-resource-name>
-		<url-pattern>/websocket/*</url-pattern>
-    	</web-resource-collection>
-    	<auth-constraint>
-    		<role-name>admin</role-name>
-   	</auth-constraint>
-    </security-constraint>
-
     <login-config>
 	    <auth-method>BASIC</auth-method>
 	    <realm-name>this is ignored currently</realm-name>
     </login-config>
 
+    <!-- Security roles referenced by this web application -->
     <security-role>
-	    <role-name>admin</role-name>
+      <role-name>admin</role-name>
     </security-role>
     <security-role>
-	    <role-name>user</role-name>
+      <role-name>user</role-name>
     </security-role>
-        
-
-
-
 
     <!-- Environment entry examples -->
     <!--env-entry>

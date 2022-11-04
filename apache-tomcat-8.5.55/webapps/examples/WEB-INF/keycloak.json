@@ -4,7 +4,7 @@
   "ssl-required": "none",
   "resource": "tomcat-examples",
   "credentials": {
-    "secret": "754cf06c-7f03-4e52-8493-d4ed575c2ec0"
+    "secret": "4eaac321-5a0c-49e8-8d49-9a3591bfc902"
   },
   "confidential-port": 0
 }
